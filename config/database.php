@@ -19,5 +19,4 @@ try {
     exit('Falha na conexão: ' . $e->getMessage());
 }
 
-session_start();
 error_reporting(0);
